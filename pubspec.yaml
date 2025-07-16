@@ -2,7 +2,7 @@ name: mvc_layer_maker
 description: "A CLI tool to generate clean architecture folders in Flutter."
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
-publish_to:
+publish_to: https://pub.dev
 repository: https://github.com/vinayparihar26/flutter_clean_structure_plugin
 homepage: https://github.com/vinayparihar26/flutter_clean_structure_plugin
 
