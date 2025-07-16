@@ -1,16 +1,35 @@
-# flutter_clean_structure
+# layer_maker
 
-A new Flutter project.
+🧱 A simple Dart CLI tool to generate clean architecture folder structure for Flutter apps.
 
-## Getting Started
+## 🚀 Features
 
-This project is a starting point for a Flutter application.
+- Creates a layered folder structure following clean architecture principles
+- Helps you quickly scaffold `data`, `domain`, `presentation`, and `util` folders
+- Subfolders like `bloc`, `usecases`, `entities`, etc., are auto-generated
 
-A few resources to get you started if this is your first Flutter project:
+## 📁 Generated Structure
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+lib/
+├── data/
+│ ├── data_source/
+│ ├── models/
+│ └── repositories/
+│
+├── domain/
+│ ├── entities/
+│ ├── repositories/
+│ └── usecases/
+│
+├── presentation/
+│ ├── bloc/
+│ │ ├── bloc/
+│ │ ├── event/
+│ │ └── state/
+│ ├── di/
+│ └── pages/
+│
+└── util/
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Happy coding! 💙
+Made with ❤️ by Vinay

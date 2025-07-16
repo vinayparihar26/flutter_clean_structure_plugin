@@ -3,7 +3,8 @@ description: "A CLI tool to generate clean architecture folders in Flutter."
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
 publish_to:
-
+repository: https://github.com/vinayparihar26/flutter_clean_structure_plugin
+homepage: https://github.com/vinayparihar26/flutter_clean_structure_plugin
 
 # The following defines the version and build number for your application.
 # A version number is three numbers separated by dots, like 1.2.43
@@ -19,7 +20,7 @@ publish_to:
 # of the product and file versions while build-number is used as the build suffix.
 version: 1.0.0+1
 executables:
-  mvc_layer_maker: bin/mvc_layer_maker.dart
+  mvc_layer_maker: mvc_layer_maker/bin/mvc_layer_maker.dart
 
 
 
