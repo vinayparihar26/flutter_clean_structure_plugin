@@ -7,14 +7,14 @@ void main(List<String> arguments) {
     'data': ['data_source', 'models', 'repositories'],
     'domain': ['entities', 'repositories', 'usecases'],
     'presentation': {
-      'bloc': ['bloc', 'event', 'state'],
+      'bloc': ['bloc.dart', 'event.dart', 'state.dart'],
       'di': [],
       'pages': [],
     },
     'util': []
   };
 
-  print('📦 Creating clean architecture folders...');
+  print('📦 Creating clean architecture, bloc folders...');
 
   structure.forEach((key, value) {
     final baseDir = Directory('${root.path}/$key')..createSync(recursive: true);

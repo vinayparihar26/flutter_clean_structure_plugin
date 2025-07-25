@@ -23,9 +23,9 @@ lib/
 │
 ├── presentation/
 │ ├── bloc/
-│ │ ├── bloc/
-│ │ ├── event/
-│ │ └── state/
+│ │ ├── bloc.dart/
+│ │ ├── event.dart/
+│ │ └── state.dart/
 │ ├── di/
 │ └── pages/
 │
